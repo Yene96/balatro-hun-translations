@@ -8,887 +8,867 @@ return {
                 }
             },
             j_jolly = {
-                name = "Joker joyeux",
+                name = "Vidám Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
+                    "{C:mult}+#1#{} Multi ha",
+                    "a játszott kéz",
+                    "tartalmaz egy {C:attention}#2#"
                 }
             },
             j_zany = {
-                name = "Joker blagueur",
+                name = "Bolondos Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi si",
-                    "la main jouée",
-                    "contient un {C:attention}#2#"
+                    "{C:mult}+#1#{} Multi ha",
+                    "a játszott kéz",
+                    "tartalmaz egy {C:attention}#2#"
                 }
             },
             j_mad = {
-                name = "Joker fêlé",
+                name = "Őrült Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
+                    "{C:mult}+#1#{} Multi ha",
+                    "a játszott kéz",
+                    "tartalmaz egy {C:attention}#2#"
                 }
             },
             j_crazy = {
-                name = "Joker déjanté",
+                name = "Bolond Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
+                    "{C:mult}+#1#{} Multi ha",
+                    "a játszott kéz",
+                    "tartalmaz egy {C:attention}#2#"
                 }
             },
             j_droll = {
-                name = "Joker plaisantin",
+                name = "Tréfás Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
+                    "{C:mult}+#1#{} Multi ha",
+                    "a játszott kéz",
+                    "tartalmaz egy {C:attention}#2#"
                 }
             },
             j_half = {
-                name = "Demi-joker",
+                name = "Fél-Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi si",
-                    "la main jouée contient",
-                    "{C:attention}#2#{} cartes ou moins"
+                    "{C:mult}+#1#{} Multi ha",
+                    "a játszott kéz tartalmaz",
+                    "{C:attention}#2#{} kártyát vagy kevesebbet"
                 }
             },
             j_fortune_teller = {
-                name = "Voyant",
+                name = "Jós",
                 text = {
-                    "{C:mult}+#1#{} Multi par carte de {C:purple}Tarot{}",
-                    "utilisée cette partie",
-                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
+                    "{C:mult}+#1#{} Multi minden {C:purple}Tarot{} kártyáért",
+                    "amit ebben a játékban használtak",
+                    "{C:inactive}(Jelenleg {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_juggler = {
-                name = "Jongleur",
+                name = "Zsonglőr",
                 text = {
-                    "{C:attention}+#1#{} à la taille de la main"
+                    "{C:attention}+#1#{} a kéz méretéhez"
                 }
             },
             j_drunkard = {
-                name = "Ivrogne",
+                name = "Részeges",
                 text = {
-                    "{C:red}+#1#{} défausse par manche"
+                    "{C:red}+#1#{} eldobott lap körönként"
                 }
             },
             j_stone = {
-                name = "Joker de pierre",
+                name = "Kő Joker",
                 text = {
-                    "{C:chips}+#1#{} Jetons par carte {C:attention}Pierre{}",
-                    "dans le {C:attention}Jeu complet{}",
-                    "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
+                    "{C:chips}+#1#{} Zseton minden {C:attention}Kő{} kártyáért",
+                    "a {C:attention}Teljes játékban{}",
+                    "{C:inactive}(Jelenleg {C:chips}+#2#{C:inactive} Zseton)"
                 }
             },
             j_golden = {
-                name = "Joker d'or",
+                name = "Arany Joker",
                 text = {
-                    "Octroie {C:money}#1#${} à",
-                    "la fin de la manche"
+                    "{C:money}#1#${} ad kör végén"
                 }
             },
             j_stencil = {
-                name = "Pochoir de Joker",
+                name = "Sablon Joker",
                 text = {
-                    "{X:mult,C:white}x1{} Multi par",
-                    "emplacement de {C:attention}Joker{} vide",
-                    "{s:0.8}Pochoir de Joker inclus",
-                    "{C:inactive}(Actuellement {X:mult,C:white}x#1#{C:inactive} Multi)"
+                    "{X:mult,C:white}x1{} Többszörös minden",
+                    "üres {C:attention}Joker{} helyért",
+                    "{s:0.8}Tartalmazza a Sablon Jokert",
+                    "{C:inactive}(Jelenleg {X:mult,C:white}x#1#{C:inactive} Többszörös)"
                 }
             },
             j_four_fingers = {
-                name = "Quatre doigts",
+                name = "Négy ujj",
                 text = {
-                    "Toutes les {C:attention}Couleurs{} et",
-                    "{C:attention}Quintes{} peuvent être",
-                    "effectuées avec {C:attention}4{} cartes"
+                    "Minden {C:attention}Szín{} és",
+                    "{C:attention}Sor{} kijátszható",
+                    "négy {C:attention}kártyával"
                 }
             },
             j_mime = {
-                name = "Mime",
+                name = "Pantomimes",
                 text = {
-                    "Recompte les cartes",
-                    "{C:attention}gardées en main{}"
+                    "Újraszámolja a",
+                    "{C:attention}kézben tartott kártyákat{}"
                 }
             },
             j_credit_card = {
-                name = "Carte de crédit",
+                name = "Hitelkártya",
                 text = {
-                    "Vous pouvez accumuler",
-                    "{C:red}-#1#${} de dettes"
+                    "Felhalmozhat",
+                    "{C:red}-#1#${} adósságot"
                 }
             },
             j_greedy_joker = {
-                name = "Joker avide",
+                name = "Mohó Joker",
                 text = {
-                    "Les cartes {C:diamonds}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées"
+                    "A kijátszott {C:diamonds}#2#{} kártyák",
+                    "{C:mult}+#1#{} Többszöröst adnak",
+                    "amikor számítanak"
                 }
             },
             j_lusty_joker = {
-                name = "Joker lubrique",
+                name = "Bujaság Joker",
                 text = {
-                    "Les cartes {C:hearts}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées"
+                    "A kijátszott {C:hearts}#2#{} kártyák",
+                    "{C:mult}+#1#{} Többszöröst adnak",
+                    "amikor számítanak"
                 }
             },
             j_wrathful_joker = {
-                name = "Joker colérique",
+                name = "Harag Joker",
                 text = {
-                    "Les cartes {C:spades}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées"
+                    "A kijátszott {C:spades}#2#{} kártyák",
+                    "{C:mult}+#1#{} Többszöröst adnak",
+                    "amikor számítanak"
                 }
             },
             j_gluttenous_joker = {
-                name = "Joker gourmand",
+                name = "Falánk Joker",
                 text = {
-                    "Les cartes {C:clubs}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées"
+                    "A kijátszott {C:clubs}#2#{} kártyák",
+                    "{C:mult}+#1#{} Többszöröst adnak",
+                    "amikor számítanak"
                 }
             },
             j_ceremonial = {
-                name = "Dague de cérémonie",
+                name = "Ceremónia tőr",
                 text = {
-                    "Lorsque la {C:attention}Blinde{} est sélectionnée,",
-                    "détruit le Joker situé à sa droite",
-                    "et augmente ce {C:mult}Multi{} du {C:attention}double{} de",
-                    "la valeur de vente du Joker détruit",
-                    "{C:inactive}(Actuellement {C:mult}+#1#{C:inactive} Multi)"
+                    "Amikor a {C:attention}Blinde{} van kiválasztva,",
+                    "megsemmisíti a jobb oldali Jokert",
+                    "és növeli ezt a {C:mult}Többszöröst{} a megsemmisített Joker",
+                    "eladási értékének {C:attention}duplájával",
+                    "{C:inactive}(Jelenleg {C:mult}+#1#{C:inactive} Többszörös)"
                 }
             },
             j_banner = {
-                name = "Bannière",
+                name = "Zászló",
                 text = {
-                    "{C:chips}+#1#{} Jetons par",
-                    "{C:attention}défausse{} restante"
+                    "{C:chips}+#1#{} Zseton egy",
+                    "megmaradt {C:attention}dobásért"
                 }
             },
             j_mystic_summit = {
-                name = "Sommet mystique",
+                name = "Misztikus csúcs",
                 text = {
-                    "{C:mult}+#1#{} Multi s'il y a",
-                    "{C:attention}#2#{} défausse restante"
+                    "{C:mult}+#1#{} Többszörös ha van",
+                    "{C:attention}#2#{} hátralévő dobás"
                 }
             },
             j_marble = {
-                name = "Joker de marbre",
+                name = "Márvány Joker",
                 text = {
-                    "Ajoute une carte {C:attention}Pierre{}",
-                    "au Jeu lorsque la",
-                    "{C:attention}Blinde{} est sélectionnée"
+                    "Hozzáad egy {C:attention}Kő{} kártyát",
+                    "a játékhoz, amikor a",
+                    "{C:attention}Blinde{} van kiválasztva"
                 }
             },
             j_loyalty_card = {
-                name = "Carte de fidélité",
+                name = "Hűségkártya",
                 text = {
-                    "{X:mult,C:white}x#1#{} Multi toutes les",
-                    "{C:attention}#2#{} mains jouées",
+                    "{X:mult,C:white}x#1#{} Többszörös minden",
+                    "{C:attention}#2#{} kijátszott kézért",
                     "{C:inactive}#3#"
                 }
             },
             j_8_ball = {
-                name = "Boule magique",
+                name = "Varázsgömb",
                 text = {
-                    "Les cartes {C:attention}8{} jouées ont",
-                    "{C:green}#1# chance(s) sur #2#{} de",
-                    "créer une carte de {C:tarot}Tarot{}",
-                    "lorsqu'elles sont comptées",
-                    "{C:inactive}(Selon la place disponible)"
+                    "A kijátszott {C:attention}8{} kártyák",
+                    "{C:green}#1# esélyük van #2#{}-hoz",
+                    "létrehozni egy {C:tarot}Tarot{} kártyát",
+                    "amikor számítanak",
+                    "{C:inactive}(A rendelkezésre álló hely függvényében)"
                 }
             },
             j_misprint = {
-                name = "Erreur d'impression",
+                name = "Nyomtatási hiba",
                 text = {
                     ""
                 }
             },
             j_dusk = {
-                name = "Crépuscule",
+                name = "Alkonyat",
                 text = {
-                    "Recompte les cartes dans la",
-                    "{C:attention}dernière main{} de la manche"
+                    "Újraszámolja a kártyákat",
+                    "az utolsó kézben {}"
                 }
             },
             j_raised_fist = {
-                name = "Poing levé",
+                name = "Emelt ököl",
                 text = {
-                    "Ajoute au {C:mult}Multi{} le {C:attention}double{}",
-                    "de la valeur de la carte",
-                    "{C:attention}la plus faible{} en main"
+                    "Hozzáadja a {C:mult}Többszöröst{} a",
+                    "legkisebb értékű kártya",
+                    "értékének {C:attention}duplájával"
                 }
             },
             j_chaos = {
-                name = "Chaos le clown",
+                name = "Káosz bohóc",
                 text = {
-                    "{C:attention}#1#{} {C:green}réassort{} gratuit",
-                    "par boutique"
+                    "{C:attention}#1#{} {C:green}ingyenes újratöltés{}",
+                    "üzletenként"
                 }
             },
             j_fibonacci = {
                 name = "Fibonacci",
                 text = {
-                    "Chaque carte {C:attention}As{},",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{} ou {C:attention}8{} jouée octroie",
-                    "{C:mult}+#1#{} Multi lorsqu'elle est comptée"
+                    "Minden kijátszott {C:attention}Ász{},",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{} vagy {C:attention}8{} kártya",
+                    "{C:mult}+#1#{} Többszöröst ad amikor számítanak"
                 }
             },
             j_steel_joker = {
-                name = "Joker d'acier",
+                name = "Acél Joker",
                 text = {
-                    "Augmente de {X:mult,C:white}x#1#{} Multi",
-                    "par carte {C:attention}Acier",
-                    "dans le {C:attention}Jeu complet{}",
-                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
+                    "{X:mult,C:white}x#1#{} Többszöröst növel",
+                    "minden {C:attention}Acél",
+                    "kártyáért a {C:attention}Teljes játékban{}",
+                    "{C:inactive}(Jelenleg {X:mult,C:white}x#2#{C:inactive} Többszörös)"
                 }
             },
             j_scary_face = {
-                name = "Figures d'effroi",
+                name = "Ijesztő arcok",
                 text = {
-                    "Les cartes {C:attention}Figure{} jouées",
-                    "octroient {C:chips}+#1#{} Jetons",
-                    "lorsqu'elles sont comptées"
+                    "A kijátszott {C:attention}Kártyák",
+                    "{C:chips}+#1#{} Zsetont adnak",
+                    "amikor számítanak"
                 }
             },
             j_abstract = {
-                name = "Joker abstrait",
+                name = "Absztrakt Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi par carte",
-                    "{C:attention}Joker{} possédée",
-                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
+                    "{C:mult}+#1#{} Többszörös minden",
+                    "birtokolt {C:attention}Joker{} kártyáért",
+                    "{C:inactive}(Jelenleg {C:mult}+#2#{C:inactive} Többszörös)"
                 }
             },
             j_delayed_grat = {
-                name = "Récompense différée",
+                name = "Késleltetett jutalom",
                 text = {
-                    "Octroie {C:money}#1#${} par {C:attention}défausse{}",
-                    "si aucune défausse n'est",
-                    "utilisée pendant la manche"
+                    "{C:money}#1#${} ad minden {C:attention}dobásért{}",
+                    "ha nem használtak dobást",
+                    "a kör alatt"
                 }
             },
             j_hack = {
-                name = "Plagieur",
+                name = "Plagizáló",
                 text = {
-                    "Recompte chaque carte",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{} jouée"
+                    "Újraszámolja minden kijátszott",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} vagy {C:attention}5{} kártyát"
                 }
             },
             j_pareidolia = {
-                name = "Paréidolie",
+                name = "Pareidolia",
                 text = {
-                    "Toutes les cartes",
-                    "sont considérées comme",
-                    "des cartes {C:attention}Figure{}"
+                    "Minden kártya",
+                    "figura kártyának számít"
                 }
             },
             j_gros_michel = {
-                name = "Gros Michel",
+                name = "Nagy Michel",
                 text = {
-                    "{C:mult}+#1#{} Multi,",
-                    "{C:green}#2# chance(s) sur #3#{} que",
-                    "cette carte soit détruite",
-                    "à la fin de la manche"
+                    "{C:mult}+#1#{} Többszörös,",
+                    "{C:green}#2# esély van #3#{}-hoz",
+                    "hogy a kártya elpusztul",
+                    "a kör végén"
                 }
             },
             j_even_steven = {
-                name = "Pair prospère",
+                name = "Páros Steven",
                 text = {
-                    "Les cartes de valeur {C:attention}paire{}",
-                    "jouées octroient {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées",
+                    "A kijátszott páros kártyák",
+                    "{C:mult}+#1#{} Többszöröst adnak",
+                    "amikor számítanak",
                     "{C:inactive}(2, 4, 6, 8, 10)"
                 }
             },
             j_odd_todd = {
-                name = "Impair pépère",
+                name = "Páratlan Todd",
                 text = {
-                    "Les cartes de valeur {C:attention}impaire{}",
-                    "jouées octroient {C:chips}+#1#{} Jetons",
-                    "lorsqu'elles sont comptées",
-                    "{C:inactive}(A, 3, 5, 7, 9)"
+                    "A kijátszott páratlan kártyák",
+                    "{C:chips}+#1#{} Zsetont adnak",
+                    "amikor számítanak",
+                    "{C:inactive}(Ász, 3, 5, 7, 9)"
                 }
             },
             j_scholar = {
-                name = "Érudit",
+                name = "Tudós",
                 text = {
-                    "Les cartes {C:attention}As{} jouées",
-                    "octroient {C:chips}+#2#{} Jetons",
-                    "et {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées"
+                    "A kijátszott {C:attention}Ász{} kártyák",
+                    "{C:chips}+#2#{} Zsetont és",
+                    "{C:mult}+#1#{} Többszöröst adnak",
+                    "amikor számítanak"
                 }
             },
             j_business = {
-                name = "Carte de visite",
+                name = "Névjegykártya",
                 text = {
-                    "Les cartes {C:attention}Figure{} jouées ont",
-                    "{C:green}#1# chance(s) sur #2#{} d'octroyer",
-                    "{C:money}2${} lorsqu'elles sont comptées"
+                    "A kijátszott {C:attention}Kártyák{}",
+                    "{C:green}#1# esélyük van #2#{}-hoz",
+                    "hogy adjanak {C:money}2${} amikor számítanak"
                 }
             },
             j_supernova = {
-                name = "Supernova",
+                name = "Szupernóva",
                 text = {
-                    "Ajoute au {C:mult}Multi{} le",
-                    "nombre de fois que la",
-                    "{C:attention}main de poker{} a été jouée"
+                    "Hozzáadja a {C:mult}Többszöröst{} a",
+                    "póker kéz játszási számához"
                 }
             },
             j_ride_the_bus = {
-                name = "Tour en bus",
+                name = "Buszozás",
                 text = {
-                    "{C:mult}+#1#{} Multi par",
-                    "main consécutive",
-                    "jouée sans carte",
-                    "{C:attention}Figure{} comptée",
-                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
+                    "{C:mult}+#1#{} Többszörös minden",
+                    "egymást követő kézért",
+                    "kijátszva figura kártya nélkül",
+                    "{C:inactive}(Jelenleg {C:mult}+#2#{C:inactive} Többszörös)"
                 }
             },
             j_space = {
-                name = "Astronaute",
+                name = "Űrhajós",
                 text = {
-                    "{C:green}#1# chance(s) sur #2#{} d'améliorer",
-                    "la {C:attention}main de poker{} jouée"
+                    "{C:green}#1# esély van #2#{}-hoz",
+                    "a játszott póker kéz javításához"
                 }
             },
             j_egg = {
-                name = "Œuf",
+                name = "Tojás",
                 text = {
-                    "Augmente de {C:money}#1#${}",
-                    "sa {C:attention}valeur de vente{} à",
-                    "la fin de la manche"
+                    "{C:money}#1#${} növeli",
+                    "az eladási értékét",
+                    "kör végén"
                 }
             },
             j_burglar = {
-                name = "Cambrioleur",
+                name = "Betörő",
                 text = {
-                    "Lorsque la {C:attention}Blinde{} est sélectionnée,",
-                    "octroie {C:blue}+#1#{} mains et",
-                    "{C:attention}retire toutes les défausses"
+                    "Amikor a {C:attention}Blinde{} van kiválasztva,",
+                    "{C:blue}+#1#{} kezet ad és",
+                    "{C:attention}eltávolít minden dobást"
                 }
             },
             j_blackboard = {
-                name = "Tableau noir",
+                name = "Fekete tábla",
                 text = {
-                    "{X:mult,C:white}x#1#{} Multi si toutes les",
-                    "cartes gardées en main sont",
-                    "des cartes {C:spades}Pique{} ou {C:clubs}Trèfle{}"
+                    "{X:mult,C:white}x#1#{} Többszörös ha minden",
+                    "kézben tartott kártya {C:spades}Pikk{} vagy {C:clubs}Treff{}"
                 }
             },
             j_runner = {
-                name = "Coureur",
+                name = "Futó",
                 text = {
-                    "Augmente de {C:chips}+#2#{} Jetons",
-                    "si la main jouée",
-                    "contient une {C:attention}Quinte{}",
-                    "{C:inactive}(Actuellement {C:chips}+#1#{C:inactive} Jetons)"
+                    "{C:chips}+#2#{} Zsetont növel",
+                    "ha a játszott kéz",
+                    "tartalmaz egy {C:attention}Sor{}-t",
+                    "{C:inactive}(Jelenleg {C:chips}+#1#{C:inactive} Zseton)"
                 }
             },
             j_ice_cream = {
-                name = "Crème glacée",
+                name = "Fagylalt",
                 text = {
-                    "{C:chips}+#1#{} Jetons,",
-                    "{C:chips}-#2#{} Jetons par",
-                    "main jouée"
+                    "{C:chips}+#1#{} Zseton,",
+                    "{C:chips}-#2#{} Zseton minden",
+                    "játszott kézért"
                 }
             },
             j_dna = {
-                name = "ADN",
+                name = "DNS",
                 text = {
-                    "Si la {C:attention}première main{} de la manche",
-                    "ne contient qu'{C:attention}une{} carte, en crée",
-                    "une copie permanente dans la {C:attention}main"
+                    "Ha az első kéz a körben",
+                    "csak egy kártyát tartalmaz,",
+                    "állandó másolatot készít róla a kézben"
                 }
             },
             j_splash = {
-                name = "Éclaboussure",
+                name = "Fröccsenés",
                 text = {
-                    "Chaque {C:attention}carte jouée",
-                    "est comptée"
+                    "Minden kijátszott kártya",
+                    "számít"
                 }
             },
             j_blue_joker = {
-                name = "Joker bleu",
+                name = "Kék Joker",
                 text = {
-                    "{C:chips}+#1#{} Jetons par carte",
-                    "restante dans le {C:attention}Jeu",
-                    "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
+                    "{C:chips}+#1#{} Zseton minden",
+                    "megmaradt kártyáért a játékban",
+                    "{C:inactive}(Jelenleg {C:chips}+#2#{C:inactive} Zseton)"
                 }
             },
             j_sixth_sense = {
-                name = "Sixième sens",
+                name = "Hatodik érzék",
                 text = {
-                    "Si la {C:attention}première main{} de la manche",
-                    "est une carte {C:attention}6{} seule, la détruit",
-                    "et crée une carte {C:spectral}Spectrale{}",
-                    "{C:inactive}(Selon la place disponible)"
+                    "Ha az első kéz a körben",
+                    "egy 6-os kártya, megsemmisíti",
+                    "és létrehoz egy {C:spectral}Spektrális{} kártyát",
+                    "{C:inactive}(A rendelkezésre álló hely függvényében)"
                 }
             },
             j_constellation = {
-                name = "Constellation",
+                name = "Csillagkép",
                 text = {
-                    "Augmente de {X:mult,C:white}x#1#{} Multi",
-                    "par carte de {C:planet}Planète{} utilisée",
-                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
+                    "{X:mult,C:white}x#1#{} Többszörös minden",
+                    "használt {C:planet}Bolygó{} kártyáért",
+                    "{C:inactive}(Jelenleg {X:mult,C:white}x#2#{C:inactive} Többszörös)"
                 }
             },
             j_hiker = {
-                name = "Randonneur",
+                name = "Túrázó",
                 text = {
-                    "Chaque {C:attention}carte{} jouée gagne",
-                    "{C:chips}+#1#{} Jetons de façon permanente",
-                    "lorsqu'elle est comptée"
+                    "Minden kijátszott kártya",
+                    "állandóan {C:chips}+#1#{} Zsetont kap",
+                    "amikor számítanak"
                 }
             },
             j_faceless = {
-                name = "Joker sans visage",
+                name = "Arctalan Joker",
                 text = {
-                    "Octroie {C:money}#1#${} si",
-                    "{C:attention}#2#{} cartes {C:attention}Figure{} ou",
-                    "plus sont défaussées",
-                    "en même temps"
+                    "{C:money}#1#${} ad ha",
+                    "{C:attention}#2#{} vagy több figura kártyát",
+                    "dobnak el egyszerre"
                 }
             },
             j_green_joker = {
-                name = "Joker vert",
+                name = "Zöld Joker",
                 text = {
-                    "{C:mult}+#1#{} Multi par main jouée,",
-                    "{C:mult}-#2#{} Multi par défausse",
+                    "{C:mult}+#1#{} Többszörös minden",
+                    "játszott kézért,",
+                    "{C:mult}-#2#{} Többszörös minden dobásért",
                     "{C:inactive}(Actuellement {C:mult}+#3#{C:inactive} Multi)"
                 }
             },
-            j_superposition = {
-                name = "Superposition",
-                text = {
-                    "Crée une carte de {C:tarot}Tarot{} si",
-                    "la main jouée contient une",
-                    "carte {C:attention}As{} et une {C:attention}Quinte{}",
-                    "{C:inactive}(Selon la place disponible)"
-                }
-            },
-            j_todo_list = {
-                name = "Liste des tâches",
-                text = {
-                    "Octroie {C:money}#1#${} si la {C:attention}main de poker{}",
-                    "jouée est un(e) {C:attention}#2#{},",
-                    "la main change à chaque manche"
-                }
-            },
-            j_ticket = {
-                name = "Ticket d'or",
-                text = {
-                    "Les cartes {C:attention}Or{} jouées octroient",
-                    "{C:money}#1#${} lorsqu'elles sont comptées"
-                },
-                unlock = {
-                    "Jouer une main de 5 cartes",
-                    "qui ne contient que des",
-                    "cartes {C:attention,E:1}Or{}"
-                }
-            },
-            j_mr_bones = {
-                name = "Défaucheuse",
-                text = {
-                    "Empêche la défaite",
-                    "si le score marqué",
-                    "constitue au moins {C:attention}25%",
-                    "du score à atteindre,",
-                    "{S:1.1,E:2}puis {S:1.1,C:red,E:2}s'autodétruit{}"
-                },
-                unlock = {
-                    "Perdre {C:attention,E:1}#1#{} parties",
-                    "{C:inactive}(#2#)"
-                }
-            },
-            j_acrobat = {
-                name = "Acrobate",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi sur la",
-                    "{C:attention}dernière main{} de la manche"
-                },
-                unlock = {
-                    "Jouer {C:attention,E:1}#1#{} mains",
-                    "{C:inactive}(#2#)"
-                }
-            },
-            j_sock_and_buskin = {
-                name = "Tragicomédie",
-                text = {
-                    "Recompte les cartes",
-                    "{C:attention}Figure{} jouées"
-                },
-                unlock = {
-                    "Jouer un total de",
-                    "{C:attention,E:1}#1#{} cartes Figure",
-                    "{C:inactive}(#2#)"
-                }
-            },
-            j_swashbuckler = {
-                name = "Corsaire",
-                text = {
-                    "Ajoute au {C:mult}Multi{} la",
-                    "valeur de vente de tous",
-                    "les autres {C:attention}Jokers{} possédés",
-                    "{C:inactive}(Actuellement {C:mult}+#1#{C:inactive} Multi)"
-                },
-                unlock = {
-                    "Vendre un total de",
-                    "{C:attention,E:1}#1#{} cartes Joker",
-                    "{C:inactive}(#2#)"
-                }
-            },
-            j_troubadour = {
-                name = "Troubadour",
-                text = {
-                    "{C:attention}+#1#{} à la taille de la main,",
-                    "{C:red}-#2#{} main par manche"
-                },
-                unlock = {
-                    "Gagner {C:attention,E:1}#1#{} manches",
-                    "consécutives en ne jouant",
-                    "qu'une seule main"
-                }
-            },
-            j_certificate = {
-                name = "Certificat",
-                text = {
-                    "Au début de la manche,",
-                    "crée une {C:attention}carte à jouer",
-                    "aléatoire avec un {C:attention}sceau{}",
-                    "aléatoire dans votre main"
-                },
-                unlock = {
-                    "Avoir une carte Or sur",
-                    "laquelle figure un {C:attention,E:1}Sceau doré"
-                }
-            },
-            j_smeared = {
-                name = "Joker barbouillé",
-                text = {
-                    "Les cartes {C:hearts}Cœur{} et {C:diamonds}Carreau{} comptent",
-                    "comme des cartes de même couleur,",
-                    "les cartes {C:spades}Pique{} et {C:clubs}Trèfle{} comptent",
-                    "comme des cartes de même couleur"
-                },
-                unlock = {
-                    "Avoir au moins",
-                    "{E:1,C:attention}#1#{} cartes {E:1,C:attention}Libre{}",
-                    "dans le Jeu"
-                }
-            },
-            j_throwback = {
-                name = "Rappel",
-                text = {
-                    "Augmente de {X:mult,C:white}x#1#{} Multi par",
-                    "{C:attention}Blinde{} passée cette partie",
-                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
-                },
-                unlock = {
-                    "Continuer une partie sauvegardée",
-                    "depuis le menu principal"
-                }
-            },
-            j_hanging_chad = {
-                name = "Bulletin de vote",
-                text = {
-                    "Recompte {C:attention}#1#{} fois la {C:attention}première{}",
-                    "carte à chaque main jouée"
-                },
-                unlock = {
-                    "Battre une Blinde de Boss",
-                    "avec une {E:1,C:attention}#1#"
-                }
-            },
-            j_rough_gem = {
-                name = "Gemme brute",
-                text = {
-                    "Les cartes {C:diamonds}Carreau{}",
-                    "jouées octroient {C:money}#1#${}",
-                    "lorsqu'elles sont comptées"
-                },
-                unlock = {
-                    "Avoir au moins",
-                    "{E:1,C:attention}#1#{} cartes {E:1,C:diamonds}#2#",
-                    "dans le Jeu"
-                }
-            },
-            j_bloodstone = {
-                name = "Pierre de sang",
-                text = {
-                    "Les cartes {C:hearts}Cœur{} jouées",
-                    "ont {C:green}#1# chance(s) sur #2#{}",
-                    "d'octroyer {X:mult,C:white}x#3#{} Multi",
-                    "lorsqu'elles sont comptées"
-                },
-                unlock = {
-                    "Avoir au moins",
-                    "{E:1,C:attention}#1#{} cartes {E:1,C:hearts}#2#",
-                    "dans le Jeu"
-                }
-            },
-            j_arrowhead = {
-                name = "Pointe de flèche",
-                text = {
-                    "Les cartes {C:spades}Pique{} jouées",
-                    "octroient {C:chips}+#1#{} Jetons",
-                    "lorsqu'elles sont comptées"
-                },
-                unlock = {
-                    "Avoir au moins",
-                    "{E:1,C:attention}#1#{} cartes {E:1,C:spades}#2#",
-                    "dans le Jeu"
-                }
-            },
-            j_onyx_agate = {
-                name = "Agate onyx",
-                text = {
-                    "Les cartes {C:clubs}Trèfle{}",
-                    "jouées octroient {C:mult}+#1#{} Multi",
-                    "lorsqu'elles sont comptées"
-                },
-                unlock = {
-                    "Avoir au moins",
-                    "{E:1,C:attention}#1#{} cartes {E:1,C:clubs}#2#",
-                    "dans le Jeu"
-                }
-            },
-            j_glass = {
-                name = "Joker de verre",
-                text = {
-                    "Augmente de {X:mult,C:white}x#1#{} Multi",
-                    "par carte {C:attention}Verre détruite{}",
-                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
-                },
-                unlock = {
-                    "Avoir au moins",
-                    "{E:1,C:attention}#1#{} cartes {E:1,C:attention}Verre{}",
-                    "dans le Jeu"
-                }
-            },
-            j_ring_master = {
-                name = "Maître du jeu",
-                text = {
-                    "Les cartes {C:attention}Joker{}, {C:tarot}Tarot{},",
-                    "{C:planet}Planète{} et {C:spectral}Spectrales{} peuvent",
-                    "apparaître plusieurs fois"
-                },
-                unlock = {
-                    "Atteindre l'Ante {E:1,C:attention}#1#"
-                }
-            },
-            j_flower_pot = {
-                name = "Pot de fleurs",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si la main jouée contient",
-                    "une carte {C:spades}Pique{}, une carte {C:hearts}Cœur{},",
-                    "une carte {C:clubs}Trèfle{} et une",
-                    "carte {C:diamonds}Carreau{} comptées"
-                },
-                unlock = {
-                    "Atteindre l'Ante {E:1,C:attention}#1#"
-                }
-            },
-            j_blueprint = {
-                name = "Cyanotype",
-                text = {
-                    "Copie les capacités du",
-                    "{C:attention}Joker{} à sa droite"
-                },
-                unlock = {
-                    "Gagner une partie"
-                }
-            },
-            j_wee = {
-                name = "P'tit joker",
-                text = {
-                    "Augmente de {C:chips}+#2#{} Jetons lorsqu'une",
-                    "carte {C:attention}2{} jouée est comptée",
-                    "{C:inactive}(Actuellement {C:chips}+#1#{C:inactive} Jetons)"
-                },
-                unlock = {
-                    "Gagner une partie en {E:1,C:attention}#1#",
-                    "manches ou moins"
-                }
-            },
-            j_merry_andy = {
-                name = "Andy le joyeux",
-                text = {
-                    "{C:red}+#1#{} défausses par manche,",
-                    "{C:red}#2#{} à la taille de la main"
-                },
-                unlock = {
-                    "Gagner une partie en {E:1,C:attention}#1#",
-                    "manches ou moins"
-                }
-            },
-            j_oops = {
-                name = "Oups ! Que des 6",
-                text = {
-                    "Double toutes les",
-                    "{C:green,E:1,S:1.1}probabilités",
-                    "{C:inactive}(ex. : {C:green}1 sur 3{C:inactive} -> {C:green}2 sur 3{C:inactive})"
-                },
-                unlock = {
-                    "Dans une main,",
-                    "gagner au moins",
-                    "{E:1,C:attention}#1#{} Jetons"
-                }
-            },
-            j_idol = {
-                name = "L'idole",
-                text = {
-                    "Chaque {C:attention}#2#{} de {V:1}#3#{}",
-                    "joué octroie {X:mult,C:white}x#1#{} Multi",
-                    "lorsqu'il est compté",
-                    "{s:0.8}la carte change à chaque manche"
-                },
-                unlock = {
-                    "Dans une main,",
-                    "gagner au moins",
-                    "{E:1,C:attention}#1#{} Jetons"
-                }
-            },
-            j_seeing_double = {
-                name = "Vision double",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si la main jouée",
-                    "contient une carte {C:clubs}Trèfle{}",
-                    "et une carte de n'importe",
-                    "quelle autre {C:attention}couleur{} comptées"
-                },
-                unlock = {
-                    "Jouer une main",
-                    "contenant",
-                    "{E:1,C:attention}quatre {E:1,C:clubs}7 de Trèfle"
-                }
-            },
-            j_matador = {
-                name = "Matador",
-                text = {
-                    "Octroie {C:money}#1#${} si la main jouée",
-                    "déclenche la capacité",
-                    "de la {C:attention}Blinde de Boss{}"
-                },
-                unlock = {
-                    "Battre une Blinde de Boss",
-                    "en {E:1,C:attention}une main{} sans",
-                    "utiliser aucune défausse"
-                }
-            },
-            j_hit_the_road = {
-                name = "Prendre la route",
-                text = {
-                    "Augmente de {X:mult,C:white}x#1#{} Multi par carte",
-                    "{C:attention}Valet{} défaussée pendant cette manche",
-                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
-                },
-                unlock = {
-                    "Défausser {E:1,C:attention}5",
-                    "carte {E:1,C:attention}Valets{}",
-                    "en même temps"
-                }
-            },
-            j_duo = {
-                name = "Le Duo",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
-                },
-                unlock = {
-                    "Gagner une partie",
-                    "sans jouer",
-                    "de {E:1,C:attention}#1#"
-                }
-            },
-            j_trio = {
-                name = "Le Trio",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si",
-                    "la main jouée",
-                    "contient un {C:attention}#2#"
-                },
-                unlock = {
-                    "Gagner une partie",
-                    "sans jouer",
-                    "de {E:1,C:attention}#1#"
-                }
-            },
-            j_family = {
-                name = "La Famille",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si",
-                    "la main jouée",
-                    "contient un {C:attention}#2#"
-                },
-                unlock = {
-                    "Gagner une partie",
-                    "sans jouer",
-                    "de {E:1,C:attention}#1#"
-                }
-            },
-            j_order = {
-                name = "L'Ordre",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
-                },
-                unlock = {
-                    "Gagner une partie",
-                    "sans jouer",
-                    "de {E:1,C:attention}#1#"
-                }
-            },
-            j_tribe = {
-                name = "La Tribu",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si",
-                    "la main jouée",
-                    "contient une {C:attention}#2#"
-                },
-                unlock = {
-                    "Gagner une partie",
-                    "sans jouer",
-                    "de {E:1,C:attention}#1#"
-                }
-            },
-            j_cavendish = {
-                name = "Cavendish",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi,",
-                    "{C:green}#2# chance(s) sur #3#{} que",
-                    "cette carte soit détruite",
-                    "à la fin de la manche"
-                }
-            },
-            j_card_sharp = {
-                name = "Maître des cartes",
-                text = {
-                    "{X:mult,C:white}x#1#{} Multi si la {C:attention}main de poker{}",
-                    "jouée l'a déjà été",
-                    "durant cette manche"
-                }
-            },
-            j_red_card = {
-                name = "Carton rouge",
-                text = {
-                    "Augmente de {C:mult}+#1#{} Multi lorsque",
-                    "n'importe quel {C:attention}Paquet{} est passé",
-                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
-                }
-            },
-            j_madness = {
-                name = "Folie",
-                text = {
-                    "Lorsque la {C:attention}Petite ou Grosse Blinde{} est",
-                    "sélectionnée, augmente de {X:mult,C:white}x#1#{} Multi ",
-                    "et {C:attention}détruit{} un autre Joker au hasard",
+ 		   j_superposition = {
+			    name = "Szuperpozíció",
+			    text = {
+			        "Létrehoz egy {C:tarot}Tarot{} kártyát, ha",
+			        "a játszott kéz tartalmaz egy",
+			        "{C:attention}Ász{} és egy {C:attention}Sor{} kártyát",
+			        "{C:inactive}(A rendelkezésre álló hely függvényében)"
+			    }
+			},
+			j_todo_list = {
+			    name = "Teendők listája",
+			    text = {
+			        "{C:money}#1#${} ad, ha a játszott {C:attention}póker kéz{}",
+			        "egy {C:attention}#2#{},",
+			        "és minden körben változik a kéz"
+			    }
+			},
+			j_ticket = {
+			    name = "Arany Jegy",
+			    text = {
+			        "A kijátszott {C:attention}Arany{} kártyák",
+			        "{C:money}#1#${} adnak, amikor számítanak"
+			    },
+			    unlock = {
+			        "Játssz egy 5 lapos kezet",
+			        "ami csak {C:attention,E:1}Arany{} kártyákat tartalmaz"
+			    }
+			},
+			j_mr_bones = {
+			    name = "Csontváz Úr",
+			    text = {
+			        "Megakadályozza a vereséget,",
+			        "ha az elért pontszám eléri legalább {C:attention}25%-át",
+			        "a szükséges pontszámnak,",
+			        "{S:1.1,E:2}majd {S:1.1,C:red,E:2}megsemmisíti magát{}"
+			    },
+			    unlock = {
+			        "Veszíts el {C:attention,E:1}#1#{} játékot",
+			        "{C:inactive}(#2#)"
+			    }
+			},
+			j_acrobat = {
+			    name = "Akrobata",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös az",
+			        "utolsó kézben a körben"
+			    },
+			    unlock = {
+			        "Játssz {C:attention,E:1}#1#{} kezet",
+			        "{C:inactive}(#2#)"
+			    }
+			},
+			j_sock_and_buskin = {
+			    name = "Tragikomédia",
+			    text = {
+			        "Újraszámolja a kijátszott",
+			        "{C:attention}Figura{} kártyákat"
+			    },
+			    unlock = {
+			        "Játssz összesen",
+			        "{C:attention,E:1}#1#{} Figura kártyát",
+			        "{C:inactive}(#2#)"
+			    }
+			},
+			j_swashbuckler = {
+			    name = "Kalandor",
+			    text = {
+			        "Hozzáadja a {C:mult}Többszöröst{} minden",
+			        "birtokolt {C:attention}Joker{} eladási értékével",
+			        "{C:inactive}(Jelenleg {C:mult}+#1#{C:inactive} Többszörös)"
+			    },
+			    unlock = {
+			        "Adj el összesen",
+			        "{C:attention,E:1}#1#{} Joker kártyát",
+			        "{C:inactive}(#2#)"
+			    }
+			},
+			j_troubadour = {
+			    name = "Trubadúr",
+			    text = {
+			        "{C:attention}+#1#{} a kéz méretéhez,",
+			        "{C:red}-#2#{} kéz minden körben"
+			    },
+			    unlock = {
+			        "Nyerj {C:attention,E:1}#1#{} kört",
+			        "egymás után úgy, hogy csak egy kezet játszol"
+			    }
+			},
+			j_certificate = {
+			    name = "Bizonyítvány",
+			    text = {
+			        "A kör elején,",
+			        "létrehoz egy véletlenszerű {C:attention}játékkártyát",
+			        "véletlenszerű {C:attention}pecséttel a kezedben"
+			    },
+			    unlock = {
+			        "Legyen egy Arany kártyád,",
+			        "amin egy {C:attention,E:1}Arany pecsét{} van"
+			    }
+			},
+			j_smeared = {
+			    name = "Maszatos Joker",
+			    text = {
+			        "A {C:hearts}Szív{} és {C:diamonds}Karo{} kártyák",
+			        "ugyanazon színűként számítanak,",
+			        "a {C:spades}Pikk{} és {C:clubs}Treff{} kártyák",
+			        "ugyanazon színűként számítanak"
+			    },
+			    unlock = {
+			        "Legyen legalább",
+			        "{E:1,C:attention}#1#{} {E:1,C:attention}Szabad{} kártyád a játékban"
+			    }
+			},
+			j_throwback = {
+			    name = "Visszatekintés",
+			    text = {
+			        "Növeli a {X:mult,C:white}x#1#{} Többszöröst minden",
+			        "áthaladott {C:attention}Blinde{}-én ebben a játékban",
+			        "{C:inactive}(Jelenleg {X:mult,C:white}x#2#{C:inactive} Többszörös)"
+			    },
+			    unlock = {
+			        "Folytass egy mentett játékot",
+			        "a főmenüből"
+			    }
+			},
+			j_hanging_chad = {
+			    name = "Szavazólap",
+			    text = {
+			        "Újraszámolja {C:attention}#1#{} alkalommal az első",
+			        "kártyát minden játszott kézben"
+			    },
+			    unlock = {
+			        "Győzd le a Boss Blindet",
+			        "egy {E:1,C:attention}#1# segítségével"
+			    }
+			},
+			j_rough_gem = {
+			    name = "Nyers drágakő",
+			    text = {
+			        "A kijátszott {C:diamonds}Karo{} kártyák",
+			        "{C:money}#1#${} adnak, amikor számítanak"
+			    },
+			    unlock = {
+			        "Legyen legalább",
+			        "{E:1,C:attention}#1#{} {E:1,C:diamonds}#2# kártyád a játékban"
+			    }
+			},
+			j_bloodstone = {
+			    name = "Vérkő",
+			    text = {
+			        "A kijátszott {C:hearts}Szív{} kártyák",
+			        "{C:green}#1# esélyük van #2#{}-hoz,",
+			        "hogy {X:mult,C:white}x#3#{} Többszöröst adjanak",
+			        "amikor számítanak"
+			    },
+			    unlock = {
+			        "Legyen legalább",
+			        "{E:1,C:attention}#1#{} {E:1,C:hearts}#2# kártyád a játékban"
+			    }
+			},
+			j_arrowhead = {
+			    name = "Nyílhegy",
+			    text = {
+			        "A kijátszott {C:spades}Pikk{} kártyák",
+			        "{C:chips}+#1#{} Zsetont adnak, amikor számítanak"
+			    },
+			    unlock = {
+			        "Legyen legalább",
+			        "{E:1,C:attention}#1#{} {E:1,C:spades}#2# kártyád a játékban"
+			    }
+			},
+			j_onyx_agate = {
+			    name = "Onyix achát",
+			    text = {
+			        "A kijátszott {C:clubs}Treff{} kártyák",
+			        "{C:mult}+#1#{} Többszöröst adnak, amikor számítanak"
+			    },
+			    unlock = {
+			        "Legyen legalább",
+			        "{E:1,C:attention}#1#{} {E:1,C:clubs}#2# kártyád a játékban"
+			    }
+			},
+			j_glass = {
+			    name = "Üveg Joker",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszöröst növel",
+			        "minden megsemmisített {C:attention}Üveg{} kártyáért",
+			        "{C:inactive}(Jelenleg {X:mult,C:white}x#2#{C:inactive} Többszörös)"
+			    },
+			    unlock = {
+			        "Legyen legalább",
+			        "{E:1,C:attention}#1#{} {E:1,C:attention}Üveg{} kártyád a játékban"
+			    }
+			},
+			j_ring_master = {
+			    name = "Játékmester",
+			    text = {
+			        "A {C:attention}Joker{}, {C:tarot}Tarot{},",
+			        "{C:planet}Bolygó{} és {C:spectral}Spektrális{} kártyák",
+			        "többször megjelenhetnek"
+			    },
+			    unlock = {
+			        "Érd el az Ante {E:1,C:attention}#1#"
+			    }
+			},
+			j_flower_pot = {
+			    name = "Virágcserép",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha a játszott kéz tartalmaz",
+			        "egy {C:spades}Pikk{}, egy {C:hearts}Szív{},",
+			        "egy {C:clubs}Treff{} és egy",
+			        "{C:diamonds}Karo{} kártyát, amikor számítanak"
+			    },
+			    unlock = {
+			        "Érd el az Ante {E:1,C:attention}#1#"
+			    }
+			},
+			j_blueprint = {
+			    name = "Kéknyomat",
+			    text = {
+			        "Másolja a jobb oldali {C:attention}Joker{}",
+			        "képességeit"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot"
+			    }
+			},
+			j_wee = {
+			    name = "Kis Joker",
+			    text = {
+			        "{C:chips}+#2#{} Zsetont növel, amikor egy kijátszott",
+			        "{C:attention}2{} kártya számít",
+			        "{C:inactive}(Jelenleg {C:chips}+#1#{C:inactive} Zseton)"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot {E:1,C:attention}#1#",
+			        "kör vagy kevesebb alatt"
+			    }
+			},
+			j_merry_andy = {
+			    name = "Vidám Andy",
+			    text = {
+			        "{C:red}+#1#{} dobások körönként,",
+			        "{C:red}#2#{} a kéz méretéhez"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot {E:1,C:attention}#1#",
+			        "kör vagy kevesebb alatt"
+			    }
+			},
+			j_oops = {
+			    name = "Hoppá! Csak 6-osok",
+			    text = {
+			        "Megduplázza minden",
+			        "{C:green,E:1,S:1.1}valószínűséget",
+			        "{C:inactive}(pl. : {C:green}1 a 3-ból{C:inactive} -> {C:green}2 a 3-ból{C:inactive})"
+			    },
+			    unlock = {
+			        "Egy kézben,",
+			        "nyerj legalább",
+			        "{E:1,C:attention}#1#{} Zsetont"
+			    }
+			},
+			j_idol = {
+			    name = "Bálvány",
+			    text = {
+			        "Minden {C:attention}#2#{} {V:1}#3#{}",
+			        "kijátszott kártya {X:mult,C:white}x#1#{} Többszöröst ad",
+			        "amikor számítanak",
+			        "{s:0.8}a kártya minden körben változik"
+			    },
+			    unlock = {
+			        "Egy kézben,",
+			        "nyerj legalább",
+			        "{E:1,C:attention}#1#{} Zsetont"
+			    }
+			},
+			j_seeing_double = {
+			    name = "Dupla látás",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha a játszott kéz tartalmaz egy",
+			        "{C:clubs}Treff{} kártyát és egy bármilyen",
+			        "más színű {C:attention}kártyát{}",
+			        "amikor számítanak"
+			    },
+			    unlock = {
+			        "Játssz egy kezet,",
+			        "ami tartalmaz",
+			        "{E:1,C:attention}négy {E:1,C:clubs}7 Treffet"
+			    }
+			},
+			j_matador = {
+			    name = "Matador",
+			    text = {
+			        "{C:money}#1#${} ad, ha a játszott kéz",
+			        "aktiválja a",
+			        "{C:attention}Boss Blinde{} képességét"
+			    },
+			    unlock = {
+			        "Győzd le a Boss Blindet",
+			        "egy {E:1,C:attention}kéz{} alatt",
+			        "anélkül, hogy dobást használnál"
+			    }
+			},
+			j_hit_the_road = {
+			    name = "Útra kelés",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszöröst növel minden",
+			        "körben eldobott {C:attention}Bubi{} kártyáért",
+			        "{C:inactive}(Jelenleg {X:mult,C:white}x#2#{C:inactive} Többszörös)"
+			    },
+			    unlock = {
+			        "Dobj el {E:1,C:attention}5",
+			        "{E:1,C:attention}Bubi{} kártyát egyszerre"
+			    }
+			},
+			j_duo = {
+			    name = "A Duó",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha",
+			        "a játszott kéz",
+			        "tartalmaz egy {C:attention}#2#"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot,",
+			        "anélkül, hogy játszanál",
+			        "egy {E:1,C:attention}#1#"
+			    }
+			},
+			j_trio = {
+			    name = "A Trió",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha",
+			        "a játszott kéz",
+			        "tartalmaz egy {C:attention}#2#"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot,",
+			        "anélkül, hogy játszanál",
+			        "egy {E:1,C:attention}#1#"
+			    }
+			},
+			j_family = {
+			    name = "A Család",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha",
+			        "a játszott kéz",
+			        "tartalmaz egy {C:attention}#2#"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot,",
+			        "anélkül, hogy játszanál",
+			        "egy {E:1,C:attention}#1#"
+			    }
+			},
+			j_order = {
+			    name = "A Rend",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha",
+			        "a játszott kéz",
+			        "tartalmaz egy {C:attention}#2#"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot,",
+			        "anélkül, hogy játszanál",
+			        "egy {E:1,C:attention}#1#"
+			    }
+			},
+			j_tribe = {
+			    name = "A Törzs",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha",
+			        "a játszott kéz",
+			        "tartalmaz egy {C:attention}#2#"
+			    },
+			    unlock = {
+			        "Nyerj egy játékot,",
+			        "anélkül, hogy játszanál",
+			        "egy {E:1,C:attention}#1#"
+			    }
+			},
+			j_cavendish = {
+			    name = "Cavendish",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös,",
+			        "{C:green}#2# esély van #3#{}-hoz,",
+			        "hogy a kártya elpusztul",
+			        "a kör végén"
+			    }
+			},
+			j_card_sharp = {
+			    name = "Kártyamester",
+			    text = {
+			        "{X:mult,C:white}x#1#{} Többszörös, ha a játszott {C:attention}póker kéz{}",
+			        "már kijátszották",
+			        "ebben a körben"
+			    }
+			},
+			j_red_card = {
+			    name = "Piros lap",
+			    text = {
+			        "{C:mult}+#1#{} Többszöröst növel, ha",
+			        "bármelyik {C:attention}Pakli{} átment",
+			        "{C:inactive}(Jelenleg {C:mult}+#2#{C:inactive} Többszörös)"
+			    }
+			},
+			j_madness = {
+			    name = "Őrület",
+			    text = {
+			        "Amikor a {C:attention}Kis vagy Nagy Blinde{} van",
+			        "kiválasztva, növeli a {X:mult,C:white}x#1#{} Többszöröst",
+			        "és {C:attention}megsemmisít{} egy másik Jokert véletlenszer
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
